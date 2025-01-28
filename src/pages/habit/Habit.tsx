@@ -2,7 +2,7 @@ import { TodoList } from "../../components/TodoList/TodoList.tsx"
 import { useState } from "react"
 
 export const Habit = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false)
+  const [isDarkMode] = useState(false)
 
 
 
