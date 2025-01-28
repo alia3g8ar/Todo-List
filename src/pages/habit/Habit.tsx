@@ -2,12 +2,9 @@ import { TodoList } from "../../components/TodoList/TodoList.tsx"
 import { useState } from "react"
 
 export const Habit = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false) // حالت دارک مود
+  const [isDarkMode, setIsDarkMode] = useState(false)
 
-  const toggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode)
-    document.documentElement.classList.toggle("dark") // اضافه یا حذف کلاس dark از HTML
-  }
+
 
   return (
     <>
@@ -16,7 +13,6 @@ export const Habit = () => {
       >
         <TodoList />
       </div>
-      {/*<SplashCursor />*/}
     </>
   )
 }
