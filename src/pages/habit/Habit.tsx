@@ -1,6 +1,4 @@
 import { TodoList } from "../../components/TodoList/TodoList.tsx"
-import SplashCursor from "../../components/SplashCursor/SplashCursor.jsx"
-import Waves from "../../components/Waves/Waves.jsx"
 import { useState } from "react"
 
 export const Habit = () => {
